@@ -1,0 +1,54 @@
+Text Color: #EEEBDD
+Other Colors:
+Beige: #EBD9B4
+Red-bright:#CE1212
+Red-Dark: #810000
+Black: #1B1717
+
+
+
+-----------------------------issues--------------------
+28/jan
+Pointer-events: none; på mobilen fungerer ikke riktig på mobilen.*Fixed*
+
+30/jan
+On PC Browser, when wider than 860px, it will still apply properties of .hideLogo from @media. Why the fuck? *Fixed*
+
+31/jan
+
+Concept looks good but needs adjustments:
+- Value adjustment for screen compatibility
+	- Font Size
+	- positioning values
+- Bottom of menucontents::before behaves weird on phone. play with inset values?
+- Fine tuning to make it look cool'n shit
+
+Alternative Solution: fill full screen width of menucontents::before and resize h1 & h2 a little with @media
+
+
+-----------------------------------------ACTIVE BUGS BELOW-----------------------------------------
+18/Feb Today Momma's birthday yaaay <3
+For some reason the only keyword that works correctly is "kylling", but it doesnt work on-load unless a tab has been selected.
+i.e. Click the "Alle" tab before trying to search for a keyword.
+
+*Fixed the "Wont load unless a tab has been selected" by assigning "selectedTab" global variable to "tab-all", however keywords other than "chicken" still isnt working as expected, why tf not?.
+
+Theory why only "kylling" works as intended: because all input into the search-bar is converted into lowercase, therefore it wont find or resonate with any of the card.elements that have capital letters in them. How to solve this?
+Todos:
+- FIXED Solve for Above Theory (Tested its correct)
+- Figure out how to add NodeElements of the Icons from json file
+- Edit Pictures
+- Complete list of items
+- After release make code look nice and organized
+
+19/Feb
+New Bug;FIXED script.js > func showFood() > mobileView.classList.add("hiddenMob"); & clickedElement variable in same if() statement keeps fucking with eachother, make it sync pls toggle()? xxx
+
+
+HELLOO???
+
+
+Top, Right -> Lower, left ->Top Right, top left-<top left-lower left
+
+Friendship all lives touch other lives to create something anew and alive
+

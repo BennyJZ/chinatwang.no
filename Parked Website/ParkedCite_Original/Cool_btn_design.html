@@ -1,0 +1,88 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>China Twang</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css?v=1">
+    </head>
+
+    <body>
+        <section id="navBar">
+            <div class="logo">
+                <div class="toggleHam">
+                    <img class="logoImg" src="Assets/Chinatwang_Logo_red.png">
+                    <div class="hamContainer">
+                        <div class="hamBurger"></div>
+                        <div class="hamBurger"></div>
+                        <div class="hamBurger"></div>
+                    </div>
+                </div>
+
+                <div id="theLinks">
+                    <div class="navHam">
+                        Home
+                    </div>
+                    <div class="navHam">
+                        Menu
+                    </div>
+                    <div class="navHam">
+                        About Us
+                    </div>
+                    <div class="navHam">
+                        Contact
+                    </div>
+                </div>
+            </div>
+
+            <div class="navBar">
+                <p class="navBtn">
+                    Home
+                </p>
+                <p class="navBtn">
+                    Menu
+                </p>
+                <p class="navBtn">
+                    About Us
+                </p>
+                <p class="navBtn">
+                    Contact
+                </p>
+                <p class="reserve">
+                    <i class="fa-solid fa-star star"></i> Reservasjoner: +47 35 52 80 70 <i class="fa-solid fa-star star"></i>
+                </p>
+            </div>
+
+
+        </section>
+        <section id="menuIntro">
+            <div class="menuContents">
+                <div class="menuBtnCont">
+                    <p class="menuBtn">
+                        Menu
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+    </body>
+
+    <footer>
+        <!-- pointer-events: none; wont work properly when loading before the link it needs to disable  -->
+        <style> 
+            @media only screen and (max-width: 860px){
+                .disable{
+                    pointer-events: none;
+                    touch-action: none;
+                }
+            }
+        </style>
+
+        <script src="script.js?v=1"></script>
+    </footer>
+</html>

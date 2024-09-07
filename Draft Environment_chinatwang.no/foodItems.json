@@ -1,0 +1,267 @@
+
+[
+    {
+    "id":"4. Våruller (2stk)",
+    "image":"4.jpg",
+    "price":"69,-",
+    "ingredients":"kinesiske vårruller fylt med marinert biff og grønnsaker",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-forrett"
+    },
+    {
+    "id":"5. Peking Suppe",
+    "image":"5.jpg",
+    "price":"69,-",
+    "ingredients":"Kinesisk Peking Suppe, basert på en allment kjent frokost rett i Beijing.",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-forrett"
+    },
+    {
+    "id":"10. Innbakt Kylling",
+    "image":"10.jpg",
+    "price":"179,-",
+    "ingredients":"Innbakte kylling biter med sursøt saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i> <i class='fa-solid fa-egg'></i> <i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-kylling"
+    },
+    {
+    "id":"11. Kylling Chop Suey",
+    "image":"11.jpg",
+    "price":"179,-",
+    "ingredients":"Kylling godt blandet med grønnsaker og klassisk chop suey saus",
+    "allergies":"",
+    "tab":"tab-kylling"
+    },
+    {
+    "id":"12. Kylling Chop Suey i Karri",
+    "image":"12.jpg",
+    "price":"179,-",
+    "ingredients":"Kylling godt blandet med grønnsaker og karri",
+    "allergies":"",
+    "tab":"tab-kylling"
+    },
+    {
+    "id":"13. Kylling Chop Suey i Sursøt",
+    "image":"13.jpg",
+    "price":"179,-",
+    "ingredients":"Kylling godt blandet med grønnsaker og sursøt",
+    "allergies":"",
+    "tab":"tab-kylling"
+    },
+    {
+    "id":"14. Kylling Chop Suey i Szechuan",
+    "image":"14.jpg",
+    "price":"188,-",
+    "ingredients":"Kylling godt blandet med grønnsaker og original Szechuan Saus, toppet med cashew nøtter",
+    "allergies":"",
+    "tab":"tab-kylling"
+    },
+    {
+    "id":"19. Innbakte Kongereker /m Sursøt",
+    "image":"19.jpg",
+    "price":"220,-",
+    "ingredients":"Flere biter Innbakte Kongereker med sur søt saus i tillegg",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-shrimp'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-kongereker"
+    },
+    {
+    "id":"20. Kongereker Chop Suey",
+    "image":"20.jpg",
+    "price":"220,-",
+    "ingredients":"Kongereker godt blandet i grønnsaker og klassisk chop suey saus",
+    "allergies":"",
+    "tab":"tab-kongereker"
+    },
+    {
+    "id":"25. Biff Chop Suey i Soya",
+    "image":"25.jpg",
+    "price":"179,-",
+    "ingredients":"Biff strimler godt blandet i grønnsaker med mørk soya saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-biff"
+    },
+    {
+    "id":"26. Biff Chop Suey i Karri",
+    "image":"26.jpg",
+    "price":"179,-",
+    "ingredients":"Biff strimler godt blandet i grønnsaker med karri saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-biff"
+    },
+    {
+    "id":"27. Biff i Østersaus",
+    "image":"27.jpg",
+    "price":"179,-",
+    "ingredients":"Biff strimler godt blandet i grønnsaker med Østersaus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-shrimp'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-biff"
+    },
+    {
+    "id":"28. Kinesisk Spesial Biff i Sursøt",
+    "image":"28.jpg",
+    "price":"189,-",
+    "ingredients":"Biff Strimler marinert med kinesisk kryddering, blandet i grønnsaker og Sursøt saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-biff"
+    },
+    {
+    "id":"29k. Blandet Kjøtt i Karri",
+    "image":"29k.jpg",
+    "price":"179,-",
+    "ingredients":"Blanding av Biff og Kylling strimler med grønnsaker i karri saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-andre"
+    },
+    {
+    "id":"29s. Blandet Kjøtt i Sursøt",
+    "image":"29s.jpg",
+    "price":"179,-",
+    "ingredients":"Blanding av Biff og Kylling strimler med grønnsaker i sursøt saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-andre"
+    },
+    {
+    "id":"30. Stekte Nudler",
+    "image":"30.jpg",
+    "price":"197,-",
+    "ingredients":"Wok friterte Egg-Nudler med Egg, Reker og Grønnsaker",
+    "allergies":"<i class='fa-solid fa-egg'></i><i class='fa-solid fa-shrimp'></i>",
+    "tab":"tab-andre"
+    },
+    {
+    "id":"31. Stekt Ris",
+    "image":"31.jpg",
+    "price":"197,-",
+    "ingredients":"Wok fritert Stekt Ris, med Egg, Skinke, Reker og Grønnsaker",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-shrimp'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-andre"
+    },
+    {
+    "id":"32. Innbakt Blekksprut /m Sursøt",
+    "image":"32.jpg",
+    "price":"188,-",
+    "ingredients":"Friterte blekksprut ringer, med en side ris og sursøt saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-fish'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>", 
+    "tab":"tab-andre"
+    },
+    {
+    "id":"34. Vårull Meny (2stk)",
+    "image":"34.jpg",
+    "price":"125,-",
+    "ingredients":"Våruller fyllt med marintert-biff kjøttdeig og grønnsaker med sursøt saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-andre"
+    },
+    {
+    "id":"44. Biff i Chilisaus",
+    "image":"44.jpg",
+    "price":"202,-",
+    "ingredients":"Biff strimler blandet i grønnsaker med litt sterk Chilisaus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-kanton"
+    },
+    {
+    "id":"45. Kinesisk Biff med Brokkoli",
+    "image":"45.jpg",
+    "price":"202,-",
+    "ingredients":"Klassisk kinesisk marinert biff blandet med brokkoli og soya saus",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-kanton"
+    },
+    {
+    "id":"53. Peking And i Kinesisk Saus Chop Suey",
+    "image":"53.jpg",
+    "price":"247,-",
+    "ingredients":"Fritert Peking-And, med sursøt saus og salat",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-shrimp'></i><i class='fa-solid fa-fish'></i>",
+    "tab":"tab-kanton"
+    },
+    {
+    "id":"54. Fritert And /m Sursøt saus og Salat",
+    "image":"54.jpg",
+    "price":"247,-",
+    "ingredients":"Fritert Peking-And, med sursøt saus og salat",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-kanton"
+    },
+    {
+    "id":"59. Innbakt Kinesiske Kongereker /m Chop Suey",
+    "image":"59.jpg",
+    "price":"214,-",
+    "ingredients":"Flere biter med Kinesiske innbakte kongereker, med Biff Chop Suey i Soya ved siden",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-shrimp'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i><i class='fa-solid fa-jar'></i>",
+    "tab":"tab-ulike"
+    },
+    {
+    "id":"59b. Innbakt Kjøttretter /m Sursøt",
+    "image":"59b.jpg",
+    "price":"249,-",
+    "ingredients":"En god blanding av Innbakt Kylling, Svin og fritert scampi med Sursøt saus.",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-shrimp'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-ulike"
+    },
+    {
+    "id":"60. Reinsdyr Ytrefilet",
+    "image":"60.jpg",
+    "price":"341,-",
+    "ingredients":"Reinsdyr Filet, Fløtesaus, Salat, Poteter, Tyttebær",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-norsk"
+    },
+    {
+    "id":"61. Biff Ytrefilet i Bearnaisesaus",
+    "image":"61.jpg",
+    "price":"296,-",
+    "ingredients":"Biff Ytrefilet med Bearnaisesaus, velg mellom poteter eller pommes frites",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-norsk"
+    },
+    {
+    "id":"64. Pepper-stekt Biff Indrefilet i Peppersaus",
+    "image":"64.jpg",
+    "price":"306,-",
+    "ingredients":"Pepper-stekt Biff med Pepper Saus, velg mellom poteter eller pommes frites",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-norsk"
+    },
+    {
+    "id":"65. Norsk Biff Indrefilet /m Bernaisesaus",
+    "image":"65.jpg",
+    "price":"306,-",
+    "ingredients":"Biff dekket i bernaisesaus med en side pommfri",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-norsk"
+    },
+    {
+    "id":"70. Løvestek i Bearnaisesaus /m Pommefrites",
+    "image":"70.jpg",
+    "price":"190,-",
+    "ingredients":"Løvestek dekket i bernaisesaus med en side pommfri og grønnsaker",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-norsk"
+    },
+    {
+    "id":"71. Hamburger /m Salat og Pommes Frites",
+    "image":"71.jpg",
+    "price":"148,-",
+    "ingredients":"Klassisk enkel hamburger med en side salat og god mengde pommes frites.",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-norsk"
+    },
+    {
+    "id":"72. Grillet Kylling /m Pommes Frites/Ris",
+    "image":"72.jpg",
+    "price":"190,-",
+    "ingredients":"En halv kylling grillet til gyllen brun med Pommes Frites eller Ris",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-norsk"
+    },
+    {
+    "id":"75. Panert Rødspette /m remulade",
+    "image":"75.jpg",
+    "price":"211,-",
+    "ingredients":"Panne stekt rødspette med remulade og reker",
+    "allergies":"<i class='fa-brands fa-pagelines'></i><i class='fa-solid fa-egg'></i><i class='fa-solid fa-fish'></i><i class='fa-solid fa-cow'></i><i class='fa-solid fa-bowl-rice'></i>",
+    "tab":"tab-norsk"
+    }
+]

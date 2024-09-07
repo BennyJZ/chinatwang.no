@@ -1,0 +1,83 @@
+*, *::before, *::after{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    }
+
+
+body{
+    background-color: #1B1717;
+    font-family: "Roboto", sans-serif;
+    color:#EEEBDD;
+    max-width: 100%;
+}
+
+.news{
+    height: auto;
+    width: 100vw;
+    margin-bottom: 1rem;
+    background-color: #810000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem 0 1rem 0;
+}
+
+.news p{
+    color: #EBD9B4;
+    font-size: 1.15rem;
+}
+
+.img_geef{
+    position: relative;
+    width: 100%;
+    /* left: 50%; */
+    /* right: 50%; */
+    
+}
+
+.img_geef img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20rem;
+    height: auto;
+    /* height: 34rem; */
+}
+
+.txt_construct{
+    text-align: center;
+}
+
+.zoomIn{
+    fill: red;
+    width: 4rem;
+    height: 4rem;
+}
+
+.img_meny img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
+}
+
+.navBar{
+    width: 100%;
+    text-align: center;
+    background-color: #EBD9B4;
+    opacity: 75%;
+    color: #1B1717;
+}
+
+.navBar p{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+

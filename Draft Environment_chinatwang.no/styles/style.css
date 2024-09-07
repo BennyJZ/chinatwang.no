@@ -1,0 +1,274 @@
+*, *::before, *::after{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Changing the phone number size a little on the navbar make the main phone number subtly more visible */
+b{ 
+    font-size: 1.1rem;
+}
+
+body{
+    background-color: #1B1717;
+    font-family: 'Space Grotesk', sans-serif;
+    color:#EEEBDD;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+/* -------- NAVBAR -------- */
+
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#navBar{
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    z-index: 3;
+    background-color: #810000;
+    width: 100vw;
+    height: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+    transition: 300ms;
+}
+
+.navBar{
+    position: sticky;
+    top: 1rem;
+    color: #EBD9B4;
+    margin: 2rem 0 0 0;
+    width: 75vw;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.navBtn{
+    margin-right: 1rem;
+    display: inline;
+}
+
+.navBtn:hover{
+    color: #EBD9B4;
+}
+
+.navBar a{
+    font-size: 1rem;
+    color: #EBD9B4;
+}
+
+.navBar a:focus{
+    font-size: 1rem;
+    color: #EBD9B4;
+    text-decoration: underline;
+}
+
+.reserve{
+    float: right;
+    display: inherit;
+    padding-right: 3rem;
+}
+
+.position{
+    float: right;
+    display: inherit;
+    padding-right: 3rem;
+}
+
+.star{
+    color: #EBD9B4;
+}
+
+.logo{
+    display: inline-block;
+    background-color: #EBD9B4;
+    overflow: hidden;
+    /* margin: 0 1rem 0 7%; */
+    width: 10rem;
+    height: 8rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+    transition: 300ms;
+}
+
+.logoImg{
+    display: block;
+    margin: auto auto;
+    width: 10rem;
+}
+
+#navBar.hideNav {
+    height: 2rem;
+}
+
+.hideBar{
+    margin: 0.25rem 0 0 0;
+}
+
+
+.hideLogo{
+    transform: translateY(-10rem);
+}
+
+.mobIcon{
+    position: relative;
+    top: 1.25rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+    color: #EBD9B4;
+    font-size: 1.5rem;
+    /* padding: 0; */
+    transition: 300ms;
+}
+
+
+.mobIconHidden{
+    top: 0rem;
+}
+
+/*----------FOOTER----------*/
+#footer{
+    position: relative;
+    width: 100vw;
+    height: 7vh;
+    color:#EBD9B4;
+    /* background: linear-gradient(180deg, rgb(129, 0, 0) 70%, rgb(75, 32, 32)); There was a world where I did this instead*/
+    background: #810000;
+
+    box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footLinks{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footTxt{
+    display: inline-block;
+}
+
+.soMe{
+    display: flex;
+    gap: 2rem;
+}
+
+.wuLogo{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 1vh;
+
+    width: 2rem;
+
+    transition: 300ms;
+}
+
+.wuLogo:hover{
+    bottom: 1.2vh;
+    filter: drop-shadow(3px 1px 3px rgba(0, 0, 0, 0.5));
+}
+
+.fbLogo{
+    width: 2rem;
+}
+/*----------FOOTER----------*/
+
+@media only screen and (max-width: 1100px){
+    #navBar{
+        justify-content: space-evenly;
+
+    }
+
+    .navBar{
+        display: none;
+    }
+
+    #theLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .navHam{
+        margin: 4px;
+    }
+
+    .logo{
+        height: 9.5rem;
+        color: #810000;
+    }
+
+    .hamContainer:hover{
+        cursor: pointer;
+    }
+
+    .hamBurger{
+        display: block;
+/* Literally just added the padding  */
+        /* padding: 0 1% 0 1%;  */
+
+        width: 9rem;
+        border: solid 2px;
+        margin: 0px auto 3px;
+    }
+
+    .active{
+        height: 17rem;
+    }
+
+    .hideLogo{
+        transform: translateY(-7.6rem);
+    }
+
+    .footTxt{
+        display: none;
+    }
+
+    .footLinks i{
+        font-size: 1.5rem;
+    }
+
+    .wuLogo{
+        width: 2.75rem;
+    }
+
+}
+
+@media only screen and (min-width: 1100px){
+    .mobIcon{
+        display: none;
+    }
+}
+
+/* -------- NAVBAR -------- */
+
+#blahblah{
+    height: 93vh;
+}
+
+.submitsuccess{
+    padding-top: 10rem;
+    padding-left: 1rem;
+}

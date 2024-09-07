@@ -1,0 +1,589 @@
+
+
+/*----------INTRO SECTION----------*/
+
+#menuIntro{
+    background-image: url(/Assets/lantern-3713468_1920.jpg);
+    height: 100vh;
+    min-height: 45rem;
+    color: #EBD9B4;
+}
+
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    top: 9rem;
+    width: 85vw;
+    height: 35rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    background-color: rgba(27, 23, 23, 0.75);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+
+.borderStyle{
+    fill:#EBD9B4;
+}
+
+.border{
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+    transform: rotate(90deg);
+}
+
+.border1{
+    position: absolute;
+    right: 4rem;
+    top: 4rem;
+    transform: rotate(180deg);
+
+}
+
+.introText{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introText > h1{
+    /* position: relative;
+    top: 10rem; */
+    font-weight: bold;
+}
+
+/* .introText > h2{
+    position: relative;
+    top: 10rem;
+} */
+
+.stil{
+    /* position: relative;
+    top: 22rem;
+    left: 50%;
+    transform: translateX(-50%); */
+    width: 60vw;
+    border: solid 2px;
+}
+
+
+.menuBtnCont{
+    cursor: pointer;
+}
+
+.menuBtn{
+    color:#810000;
+    background-color: #EBD9B4;
+    font-size: 20px;
+    padding: 0.75rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+    transition: 300ms;
+    transform-origin: center;
+    display: inline-block;
+}
+
+.menuBtn:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 860px){
+
+
+    .introText h1{
+        top: 5rem;
+        font-size: 3rem;
+    }
+
+
+    .stil{
+        top: 15rem;
+        width: 75vw;
+    }
+
+    /* .menuBtnCont{
+        top: 11rem;
+    } */
+
+    .menuContainer{
+        height: 26rem;
+        top: 11rem;
+    }
+
+    .borderStyle{
+        display: none;
+    }
+}
+
+/*----------INTRO SECTION----------*/
+
+/*----------PERFEKT MAT----------*/
+
+#perfektSpise{
+    height: auto;
+    background-color: #1B1717; /*Remove/Change later (replace with image)*/
+
+}
+
+.matContainer{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    top: 5rem; /*Because of the Relative positioning, these dont have a ""body*/
+    margin-bottom: 10rem;
+}
+
+.matBkg{
+    position: relative;
+    background-color: #810000;
+    border-radius: 20px;
+    width: 24rem;
+    height: 31rem;
+}
+
+.matBkg::after{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 1.25rem;
+    left:0;
+    height: 12rem;
+    width: 2.5rem;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: transparent transparent transparent #810000;
+    border-width: 40px 0px 40px 40px; /*Basically makes the shape some how*/
+    filter: drop-shadow(5px 0 4px rgba(0, 0, 0, 0.5));
+}
+
+.matBkg p{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.2rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 2rem;
+}
+
+.mat{
+    position: absolute;
+    background-color: #1B1717;
+    z-index: 1;
+    border: solid 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+    top: 0.5rem;
+    left: 5px;
+    width: 21rem;
+    height: 27rem;
+    transition: 300ms;
+}
+
+.mat > img{
+    width: 100%;
+}
+
+.mat:hover{
+    left: 3rem;
+}
+
+
+.menu_icon{
+    position: absolute;
+    z-index: 0;
+    bottom: 4px;
+    right: 0.25rem;
+}
+
+
+.matTekst{
+    position: relative;
+    display: inline-block;
+    overflow: auto;
+    top: 2rem;
+    width: 55rem;
+    left: 50%;
+
+    padding: 10px;
+    border-radius: 25px;
+    transform: translateX(-50%);
+}
+
+/* .matTekst:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.40);
+} */
+
+.matTekst > h2{
+    /* font-size: 1.75rem; */
+    line-height: 1.5;
+}
+
+.matTekst > p{
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+
+/* @media only screen and (max-width: 1100px){
+    .matTekst{
+        width: 100vw;
+    }
+} */
+
+/*----------PERFEKT MAT----------*/
+
+/*----------OM OSS----------*/
+
+#omOss{
+    height: auto;
+    min-height: 44rem;
+    position: relative;
+    background-color: #EBD9B4;
+}
+
+.oldSchool{
+    position: relative;
+    top: 2rem;
+    left: 4vw;
+    transform: rotate(-2deg);
+}
+
+.oldSchool >img{
+    width: 25rem;
+    border: solid 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+
+.pappa{
+    position: absolute;
+    width: 26rem;
+    top: 6rem;
+    left: 28vw;
+    z-index: 1;
+    transform: rotate(-2deg);
+}
+
+.pappa > img{
+    border: solid 5px;
+    width: 100%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+.mamma{
+    position: absolute;
+    width: 26rem;
+    top: 24rem;
+    left: 30vw;
+    transform: rotate(3deg);
+}
+
+.mamma > img{
+    border: solid 5px;
+    width: 100%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+
+.omOssCont{
+    position: absolute;
+    overflow: auto;
+    z-index: 1;
+    width: 35vw;
+    /* clamp(20rem, 35vw, 33rem) */
+    height: 50vh;
+    right: 3vw;
+    top: 5rem;
+    background-color: rgba(27, 23, 23, 0.75);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+
+.omOssCont > h2{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.omOssCont > p{
+    line-height: 1.5;
+    font-size: 1.25rem;
+    word-spacing: 0.3rem;
+}
+
+/* -------------Find Us ---------------*/
+
+
+.hoursMapsCont{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#map{
+    overflow: hidden;
+    border: solid 5px #810000;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+    height: 50vh;
+    width: clamp(20rem, 40vw, 45rem);
+    transition: 300ms;
+}
+
+#map:hover{
+    box-shadow:0 6px 20px 0 rgba(206, 18, 18, 0.5);
+}
+
+.hours{
+    border-radius: 25px;
+    width: clamp(20rem, 30vw, 25rem);
+    left: 25%;
+    padding: 10px;
+    line-height: 2;
+    font-size: 1.25rem;
+}
+
+.hours > ul{
+    list-style: none;
+}
+
+.dishanime{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh;
+
+}
+
+.animIcon{
+    border-left: solid 0.2rem #810000;
+    width: 15rem;
+    overflow: hidden;
+}
+
+.animIcon svg{
+    fill: #810000;
+    height: 5rem;
+    width: 5rem;
+}
+
+#secondFood{
+    transform: translateX(-100%);
+    transition: 600ms;
+}
+
+#firstFood{
+    transform: translateX(-100%);
+    transition: 300ms;
+}
+
+#thirdFood{
+    transform: translateX(-100%);
+    transition: 900ms;
+}
+
+
+@media only screen and (max-width:1100px){
+
+
+    .mat:hover{
+        left: 5px;
+    }
+
+    .matBkg p{
+        font-size: 1rem;
+    }
+    
+    .matTekst{
+        width: 100vw;
+    }
+
+    .matTekst h2{
+        font-size: 1.25rem;
+    }
+
+    .matTekst p{
+        font-size: 1rem;
+    }
+
+
+
+    #omOss{
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .omOssCont{
+        position: relative;
+        width: 100vw;
+        height: 15rem;
+        transform: translate(-50%, -10%);
+        overflow: scroll;
+        left: 50%;
+    }
+
+    .omOssCont h2{
+        font-size: 1.25rem;
+    }
+
+    .omOssCont p {
+        font-size: 1rem;
+    }
+
+    .oldSchool{
+        left: 0;
+    }
+
+    .mamma{
+        display: none;
+    }
+    .pappa{
+        display: none;
+    }
+
+    .hoursMapsCont{
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mapContainer{
+        right: 50%;
+        bottom: 1rem;
+    }
+
+    .hours h2{
+        font-size: 1.25rem;
+    }
+
+    .hours{
+        font-size: 1rem;
+        left: 50%;
+        top: clamp(1rem, 2rem ,2rem);
+    }
+
+    #map{
+        width: 100vw;
+        height: 40vh;
+    }
+
+    /* .dishanime{
+        display: none;
+    } */
+
+}
+
+/*----------find US----------*/
+
+/* ---------------Contact Us------------------ */
+
+.contactCont{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+.contactTitle hr{
+    border: none;
+    width: 14rem;
+    height: 0.5rem;
+    background-color: #810000;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.contact-inputs{
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+    font-weight: 500;
+    color: #666;
+    border-radius: 25px;
+}
+
+.contact-inputs:focus{
+    border: 3px solid #810000;
+}
+
+.contact-text{
+    height: 8rem;
+    width: 20rem;
+}
+
+.contactButton{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    gap: 1rem;
+    border-radius: 10px;
+    background: linear-gradient(270deg, rgb(129, 0, 0), rgb(27, 23, 23));
+    transition: 300ms;
+}
+
+.contactButton:hover{
+    cursor: pointer;
+}
+
+.interiorCT{
+    width: 35vw;
+    border: solid 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+input:invalid ~ button {
+    background: linear-gradient(270deg, rgb(27, 23, 23), rgb(27, 23, 23));
+    opacity: 0.5;
+}
+/* ------------------Contact US--------------- */
+
+@media only screen and (max-width:820px){
+
+}
+
+@media only screen and (max-width:820px){
+
+    .oldSchool > img{
+        width: 20rem;
+    }
+
+    .interiorCT{
+        display: none;
+    }
+
+    .omOssCont{
+        height: 15rem;
+    }
+
+    #omOss{
+        height: 60rem; /*Rounded up from 59,5 Height of image approx 500px converted to rem, add height pushed dewn from top on text "2rem" in addition to height of text "15rem"*/
+    }
+
+}
